@@ -3,14 +3,14 @@
  * @Author: chengen
  * @Date: 2023-07-17 16:40:55
  * @LastEditors: chengen
- * @LastEditTime: 2023-07-17 16:57:44
+ * @LastEditTime: 2023-07-17 18:36:48
  * @FilePath: /sparrow/rollup.config.js
  */
 
-import resolve from '@rollup/plugin-node-resolve';
-import babel from '@rollup/plugin-babel';
+const babel = require('@rollup/plugin-babel');
+const resolve = require('@rollup/plugin-node-resolve');
 
-export default {
+module.exports = {
   input: 'src/index.js',
   output: [
     {
