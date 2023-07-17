@@ -29,6 +29,7 @@
     "jest-environment-jsdom": "^29.6.1",
     "lint-staged": "^13.2.3",
     "mrm": "^4.1.17",
+    "npm-run-all": "^4.1.5",
     "rimraf": "^5.0.1",
     "rollup": "^3.26.2"
   },
