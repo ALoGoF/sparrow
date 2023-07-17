@@ -2,7 +2,7 @@
  * @Author: chengen
  * @Date: 2023-07-17 17:46:22
  * @LastEditors: chengen
- * @LastEditTime: 2023-07-17 17:49:43
+ * @LastEditTime: 2023-07-17 17:52:37
  * @FilePath: /sparrow/jest.config.js
  */
 /**
@@ -12,7 +12,6 @@
 
 /** @type {import('jest').Config} */
 module.exports = {
-
   testMatch: ['**/__tests__/**/*.spec.js'], // 只测试后缀为 .spec.js 的文件
   clearMocks: true,
   collectCoverage: true,
